@@ -43,3 +43,13 @@ print(pesquisa_binaria(minha_lista, -1))
 
 # EXERCICIO 1.6 - VOLTAR DEPOIS PARA ENTENDER
 
+# O problema do caixeiro-viajante se resume a um tempo fatorial(O(n!)), ele consome muitas operações, mas para casos envolvendo números pequenos "pode" ser uma opção. 
+    # - Mas a partir do momento que lidamos com mais de 100 cidades é impossivel calcular a resposta em função do tempo.
+    # - (100! = 93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000 )
+    
+# RECAPITULAÇÃO DO CAPITULO.
+    
+    # - A pesquisa binária é muito mais rapida do que uma pesquisa simples
+    # - O(Log n)(pesquisa binária) é mais rápido do que O(n)(pesquisa simples), e o O(log n) fica ainda mais rápido conforme os elementos da lista aumentam.
+    # - A rapidez de um algoritmo não é medida em segundos, e sim por meio do seu crescimento.
+    # - O tempo de execução dos algoritmos é expresso na notação big O.

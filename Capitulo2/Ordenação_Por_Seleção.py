@@ -26,7 +26,7 @@ def ordenacaoporSelecao(arr):
 
 print (ordenacaoporSelecao([5,3,6,2,10]))
 
-# Anotações para entendimento do POP
+# Anotações para entendimento do POP // O pop remove pelo indice e retorna o elemento removido
 array = [1,2,3,4,5]
 exem = array.pop(1)
 newarr = []
